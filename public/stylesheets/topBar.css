@@ -1,0 +1,15 @@
+ul{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+li{
+    border: 1px solid var(--color-gris);
+    text-align:center;
+    color: var(--color-gris);
+    width:30vh;
+    height: 100px;
+    padding-top:10px;
+    
+}

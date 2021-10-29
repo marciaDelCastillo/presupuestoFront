@@ -1,0 +1,129 @@
+
+.login a {
+    text-decoration: none;
+    color: var(--color-blanco);
+}
+
+.login {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 32px;
+    margin: 32px auto;
+    flex-wrap: nowrap;
+}
+
+.login h1{
+    font-size: 60px;
+    text-align: center;
+    color: var(--color-blanco);
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.login .form-control{
+    background-color: var( --color-celeste);
+    height: 40px;
+    border: none;
+}
+
+.login .form-control{
+    color: var(--color-blanco)
+}
+
+
+.login ::placeholder{
+    color:var(--color-blanco);
+}
+
+.login .conectado{
+    margin-top: 18px;
+    color: var(--color-blanco);
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.login
+.creacuenta{
+    color: var(--color-blanco);
+    margin-top: 30px;
+    font-size: 14.5px;
+}
+
+.login .boton{
+    border: solid 1px var(--color-blanco);
+    color: var(--color-blanco);
+   background-color:var(--color-azul-oscuro);
+   text-transform: uppercase;
+   margin-top: 16px;
+   border-radius: 12px;
+   padding: 10px 40px;
+  margin-left: 10vw; 
+  display: block; 
+  width: 50vw;
+  margin-bottom: 3vh;
+}
+.login footer{
+    position: fixed;
+    bottom: 0;
+}
+
+@media (min-width:768px){
+
+.login {
+    margin-left: 15vw;
+    margin-top: 50px;
+    }
+
+    .login .conectado{
+        margin-top: 30px;
+        margin-bottom: 7px;
+        font-size: 20px;
+    }
+
+    .login .form-control{
+        width: 55%;
+        margin-left: 16vw;
+    }
+
+
+    .login .recuperarpassword,
+.creacuenta{
+    margin-top: 30px;
+    font-size: 18px;
+    
+}
+.login
+.creacuenta:hover{
+    text-decoration: underline;
+}
+
+.login .boton{
+   margin-top: 25px;
+   margin-bottom: 25px;
+   margin-left: 21vw;
+   width: 28vw;
+}
+}
+@media (min-width:1024px) {
+
+
+    .login{
+        margin-left: 15vw;
+        margin-top: 3vh;
+    }
+
+    .login .form-control{
+        width: 32vw;
+        margin-left: 19vw;
+    }
+
+
+    .login .boton{
+        margin-left: 21vw;
+        width: 28vw;
+        cursor: pointer;
+    }
+
+}

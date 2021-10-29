@@ -19,7 +19,7 @@ class Table extends Component{
         .catch(error=>console.log(error))
     }
     componentDidMount(){
-        this.apiCall("http://127.0.0.1:3030/operations",this.actualizarFilas);
+        this.apiCall("http://127.0.0.1:3030/operations/last10",this.actualizarFilas);
     }
     render(){
 

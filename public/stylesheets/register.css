@@ -1,0 +1,130 @@
+.register{
+    position:relative;
+    text-align:center;
+    width:100%;
+    min-height:100vh;
+}
+
+.register h1{
+    color:var(--color-blanco);
+    font-size:15vw;
+    text-align:center;
+    margin:30px;
+}
+.register .dibujo{
+    margin: 40px 5% 40px 5%;
+    width: 90%;
+    height: 158px;
+    background-image:url("/images/dibujo.png");
+    background-size:contain;
+}
+.register p{
+    margin-top:30px;
+    margin-bottom:40px;
+    color:var(--color-blanco);
+    font-size:9vw;
+}
+.register .dato{
+    display:inline-block;
+    width:90%;
+    font-size:4vw;
+    padding:8px;
+    margin-top:20px;
+    background-color:var(--color-celeste);
+    color:var(--color-blanco);
+    border-radius:12px;
+}
+::placeholder{
+    color:var(--color-blanco);
+}
+.register label{
+    display:inline-block;
+    color:var(--azul-oscuro);
+    font-size:4vw;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:20px;
+}
+.register a{
+    display:inline-block;
+    margin:10px;
+    color:var(--color-blanco);
+    width:90%;
+    text-align:center;
+}
+.register button{
+    background-color:var(--color-azul-oscuro);
+    color:var(--color-blanco);
+    font-size:10vw;
+    padding:10px;
+    margin-bottom:100px;
+    border:solid 1px var(--color-blanco);
+    margin-top:15px;
+    border-radius:12px;
+}
+.register footer a{
+    color:var(--color-blanco);
+}
+.register .errores{
+    font-size:4vw;
+    color: var(--color-rojo);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media(min-width:768px){
+
+    .register h1{
+        font-size:7vw;
+    }
+    .register p{
+        font-size:3vw;
+    }
+    .register .contenedor{
+        display:flex;
+        width:90vw;
+        margin-left:5vw;
+        justify-content:center;
+    }
+    .register .portada{
+        width:40%;
+    }
+    .register .formulario{
+        width:60%;
+    }
+    .register .dibujo{
+        margin-top:0;
+    }
+    .register .dato{
+        font-size:2vw;
+    }
+    .register .errores{
+        font-size:2vw;
+    }
+    .register label{
+        font-size:1.5vw;
+    }
+    .register button{
+        font-size:4vw;
+    }
+    .register footer{
+        position: absolute;
+    }
+}
+@media(min-width:1024px){
+
+    .register .contenedor{
+        width:70vw;
+        margin:0 auto;
+    }
+    .register .portada{
+        width:50%;
+    }
+    .register .formulario{
+        width:50%;
+    }
+    .register h1{
+        font-size:5vw;
+    }
+}
